@@ -1,9 +1,6 @@
 <div style='border: 3px dashed red'>
-    <img src='http://bit.ly/1eze8aE'>
-     "Hi there, Visitor <%= 2 + 2 %>!"
-     <h1> My name is Pablo</h1>
-     <p> hey this is a sampe from an array  <%=  ["Amigo", "Oscar", "Viking"].sample %></p>
-     <%=  weekday = Time.now.strftime('%A');
-      "Today is a #{weekday}!" %>
-
-  </div>
+  <img src='http://bit.ly/1eze8aE'>
+  <h1> <%= @coder_name %> </h1>
+  <h2> <%= @cat_name %> </h2>
+  <h1> <%= @weekday %> </h1>
+</div>
