@@ -1,7 +1,7 @@
 require 'sinatra'
 get '/' do
 
-  'Hello world!'
+erb "Hi there, Visitor <%= 2 + 2 %>!"
 
 end
 
